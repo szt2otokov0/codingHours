@@ -4,7 +4,7 @@ public class CodingHours {
 
         System.out.println("The attendee codes " + codeHours + "h per semester");
 
-        float codePc = 52f*17f/codeHours;
+        double codePc = (codeHours/(52f*17f))*100;
         System.out.println("They spend " + codePc + "% of their work time with coding");
     }
 }
