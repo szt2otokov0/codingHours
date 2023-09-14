@@ -1,4 +1,4 @@
-public class Main {
+public class CodingHours {
     public static void main(String[] args) {
         int codeHours = 6*5*17;
 
